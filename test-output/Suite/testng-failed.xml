@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="TestNgBikes_BatchExecution.Tvs">
+        <methods>
+          <include name="tvs"/>
+        </methods>
+      </class> <!-- TestNgBikes_BatchExecution.Tvs -->
+      <class name="TestNgShoes_BatchExecution.Addidas">
+        <methods>
+          <include name="addidas"/>
+        </methods>
+      </class> <!-- TestNgShoes_BatchExecution.Addidas -->
+      <class name="TestNgShoes_BatchExecution.Nike">
+        <methods>
+          <include name="nike"/>
+        </methods>
+      </class> <!-- TestNgShoes_BatchExecution.Nike -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

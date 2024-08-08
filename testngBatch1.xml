@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="6" name="Test" parallel="classes">
+    <classes>
+      <class name="TestNgBikes_BatchExecution.Honda"/>
+      <class name="TestNgShoes_BatchExecution.Addidas"/>
+      <class name="TestNgBikes_BatchExecution.KTM"/>
+      <class name="TestNgBikes_BatchExecution.Tvs"/>
+      <class name="TestNgShoes_BatchExecution.Nike"/>
+      <class name="TestNgShoes_BatchExecution.RadTape"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

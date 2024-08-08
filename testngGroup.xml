@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+     <run>
+     <include name="smoke"></include>
+     </run>
+  </groups>
+    <classes>
+      <class name="TestNgBikes_BatchExecution.Honda"/>
+      <class name="TestNgShoes_BatchExecution.Addidas"/>
+      <class name="TestNgBikes_BatchExecution.KTM"/>
+      <class name="TestNgBikes_BatchExecution.Tvs"/>
+      <class name="TestNgShoes_BatchExecution.Nike"/>
+      <class name="TestNgShoes_BatchExecution.RadTape"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->     
+
+<!-- it is for report opening... -->
+ <!-- open advanceseleniuma6 folder then test-output and then open the emaillable-report.html file one with web browser -->
+
+
